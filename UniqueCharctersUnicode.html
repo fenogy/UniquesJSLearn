@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"
+    ><meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>UniqueCharacters</title>
+    <script type="text/javascript"  src="uniques.js"></script>
+    
+</head>
+<body>
+
+        <form method="get" name="uniques">       
+        <h1 style="font-family: Calibri;font-size: 1.5em;">Original Text</h1>
+        <textarea name="input" rows="20" cols="100"></textarea>
+        <br>
+
+        <input type="button" onclick="updateUniques();" value="Find Uniques">
+
+        <h1 style="font-family: Calibri;font-size: 1.5em;">Unique Characters with no of occurences</h1>
+        <br >
+        <pre id="UniquesList" style="font-family: Calibri;font-size: 1.0em;"></pre>
+        </form>
+
+</body>
